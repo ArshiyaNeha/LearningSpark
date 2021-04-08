@@ -33,6 +33,7 @@ object DataFrames extends App
 
   Seq(("a",1),("b",2),("c",3)).toDS().show()
 
+
   //createDataFrame() and toDF() methods are two different way's to create DataFrame in spark.
   // By using toDF() method, we don't have the control over schema customization whereas in createDataFrame()
   // method we have complete control over the schema customization.

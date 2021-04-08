@@ -31,6 +31,7 @@ object Joins extends App
     ("IT",40)
   )
 
+
   val deptColumns = Seq("dept_name","dept_id")
   val deptDF = dept.toDF(deptColumns:_*)
   deptDF.show(false)

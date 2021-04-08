@@ -18,6 +18,7 @@ object SelectOperations extends App
     ("Maria","Jones","USA","FL")
   )
 
+
   val columns = Seq("firstname","lastname","country","state")
 
   import spark.implicits._

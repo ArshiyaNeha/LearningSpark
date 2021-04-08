@@ -21,6 +21,7 @@ object Filter extends App
     Row(Row("Swathi","A","u"),List("CSharp","VB"),"Punjab","Male"),
   )
 
+
   //create structure of schema
   val creatinschema = new StructType()
     .add("name",new StructType()

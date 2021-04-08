@@ -3,6 +3,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{avg, col, sum}
 
 object groupby extends App
+
 {
   val spark : SparkSession = SparkSession.builder()
     .master("local[*]")

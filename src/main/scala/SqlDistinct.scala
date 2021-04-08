@@ -10,6 +10,7 @@ object SqlDistinct extends App
 
   Logger.getLogger("org").setLevel(Level.ERROR)
 
+
   val simData = Seq(("James","Sales",3000),
     ("kartik","Sales",2500),
     ("Maria","Finance",5000),
